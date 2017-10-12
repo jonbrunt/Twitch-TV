@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/x-icon" href="Assets/Images/MyFavicon.ico">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Special+Elite|Lato" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="Assets/CSS/Twitch.css"> 
+<title>JMB Twitch TV App</title>
+
+</head>
+<body>
+
+<img class='banner' src="Assets/Images/Twitch_White_RGB.png">
+
+<div>
+	<h2 id='loadBanner'>Loading&nbsp;&nbsp;<i class="fa fa-spinner fa-pulse fa-fw"></i><span class="sr-only">Loading...</span></h2>
+</div>
+
+<div class='toggle'>
+	<span class='button' id='all'>See All</span>
+	<span class='button' id='online'>See Online</span>
+	<span class='button' id='offline'>See Offline</span>
+</div>
+<!-- empty div for javascript to add ul and li for results after ajax -->
+<div class='results'></div> 
+
+<div class='footer'>
+	<p class='credit'>Design &amp; Development by Jonathan M. Brunt</p>
+	<p>Powered by Twitch v5 API</p>
+</div>
+
+<script type="text/javascript" src="Assets/JS/Twitch.js"></script>
+
+</body>
+
+</html>
