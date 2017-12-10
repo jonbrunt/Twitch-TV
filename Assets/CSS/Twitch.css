@@ -1,5 +1,6 @@
 body {
 	max-width: 1600px;
+	margin: 0 auto;
 	background-color: #6441a4;
 	background: -webkit-linear-gradient(to right, #3d2864, #9260f0);
 	background: linear-gradient(to right, #3d2864, #9260f0);
