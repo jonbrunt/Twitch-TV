@@ -1,2 +1,2 @@
-# twitch_tv
-An app that shows the online status of Twitch TV users, and their stream status, written in plain HTML, CSS, and vanilla JS, and powered by the Twitch v5 API. The app utilizes an array of known users to allow for the return of online and offline valid users. This app may not render in all browsers due to the use of fetch() method, specifically older iOS and Android, and all Opera Mini and IE browsers. 
+# Twitch TV
+An app that shows the online status of Twitch TV users, and their stream status, written in plain HTML, CSS, and vanilla JavaScript, and powered by the Twitch v5 API. The app utilizes an array of known users to allow for the return of online and offline valid users. This app may not render in all browsers due to the use of the fetch() method, specifically Opera Mini and Internet Explorer. 
